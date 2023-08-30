@@ -1,0 +1,142 @@
+[
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_1[0]",
+        "field_name": "Name of individual who is the beneficial owner",
+        "mandatory": true,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_2[0]",
+        "field_name": "Country of citizenship",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_3[0]",
+        "field_name": "Permanent Residence Address",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_4[0]",
+        "field_name": "city(Permanent residence address)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_5[0]",
+        "field_name": "Country(Permanent residence address)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_6[0]",
+        "field_name": "Mailing Address",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_7[0]",
+        "field_name": "City(Mailing address)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_8[0]",
+        "field_name": "Country(Mailing address)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_9[0]",
+        "field_name": "U.S. taxpayer identification number (TIN)",
+        "mandatory": true,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_10[0]",
+        "field_name": "Foreign tax identifying number",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].c1_01[0]",
+        "field_name": "Check if FTIN not legally required",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_11[0]",
+        "field_name": "Reference number",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_12[0]",
+        "field_name": "Date of birth",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_13[0]",
+        "field_name": "certify that the beneficial owner is a resident of",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_14[0]",
+        "field_name": "Special rates and conditions",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_15[0]",
+        "field_name": "Percent(Special rates and conditions)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_16[0]",
+        "field_name": "f2(Special rates and conditions)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_17[0]",
+        "field_name": "f3",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_18[0]",
+        "field_name": "additional conditions",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].c1_02[0]",
+        "field_name": "approve(Signature)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_20[0]",
+        "field_name": "Signature(Signature)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].Date[0]",
+        "field_name": "date(Signature)",
+        "mandatory": false,
+        "validation_type": "text"
+    },
+    {
+        "field_identifier": "topmostSubform[0].Page1[0].f_21[0]",
+        "field_name": "Full name",
+        "mandatory": false,
+        "validation_type": "text"
+    }
+ 
+    
+]

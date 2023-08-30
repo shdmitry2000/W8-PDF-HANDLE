@@ -1,0 +1,10 @@
+PyMuPDF
+PyPDF2
+#fitz
+#frontend
+pytesseract
+#textract
+#slate3k
+pdf2image
+fillpdf
+PyPDF3
