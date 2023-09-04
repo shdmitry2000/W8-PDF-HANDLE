@@ -1,0 +1,1 @@
+docker run -v /Users/dmitryshlymovich/workspace/ocr/w8/:/app w8-ubuntu-tesseract-python python3 w8tojson.py /app/$1
