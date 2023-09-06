@@ -21,10 +21,12 @@ def file_proccess(pdf_path):
     #         print(f"Detected Form Type: {detected_form_type}")
 
     # Perform actions based on the detected form type
+    isOcr="YES"
     if detected_form_type == "W-8BEN":
         # Handle W-8BEN form
         if (isfieldsExist):
             form=w8tojson.W8BENForm(pdf_path)
+            isOcr="NO"
         else:
             form=w8tojson.W8BENOCRForm(pdf_path)
         pass
@@ -45,10 +47,10 @@ def file_proccess(pdf_path):
 
     if(form.isvalid()):
             # print(form.getFields(),"\n\n\n")
-            return {"validity":"valid","fields":form.getpdffields()}
+            return {"validity":"valid","OCR": isOcr,"fields":form.getpdffields()}
             # print(form.getpdffields())
     else:
-        return {"validity":"not valid","fields":form.getpdffields()}
+        return {"validity":"not valid","OCR": isOcr,"fields":form.getpdffields()}
             
       
 async def run_docker_command(command: str):

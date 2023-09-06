@@ -16,10 +16,10 @@ ENV TZ=UTC
 #     && rm -rf /var/lib/apt/lists/*
 
 # Update package lists and install necessary packages
-RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip \
-    && rm -rf /var/lib/apt/lists/*
+# RUN apt-get update && apt-get install -y \
+#     python3 \
+#     python3-pip \
+#     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y \
     poppler-utils 
